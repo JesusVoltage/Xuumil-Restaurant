@@ -1,0 +1,53 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+#menusito {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.menusito-bg {
+  background-color: #131212;
+  opacity: 0.8;
+}
+
+.opacity-0 {
+  opacity: 0 !important;
+}
+.opacity-1 {
+  opacity: 0.2 !important;
+}
+.opacity-2 {
+  opacity: 0.4 !important;
+}
+.opacity-3 {
+  opacity: 0.6 !important;
+}
+.opacity-4 {
+  opacity: 0.8 !important;
+}
+.opacity-5 {
+  opacity: 1 !important;
+}
+
+.bg-contenedor {
+  background-color: #f2f2f2;
+}
+
+.bg-footer {
+  background-color: #40271e;
+}
+
+.ver-mas{
+  cursor: pointer;
+  transition: 0.2s;
+}.ver-mas:hover{
+  color: #6d4c06;
+}
+
+.texto{
+  transition: 1s;
+}
