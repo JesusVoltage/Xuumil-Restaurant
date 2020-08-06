@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { WorkingComponent } from './working/working.component';
 import { HomeComponent } from './home/home.component';
 import { CartaComponent } from './carta/carta.component';
+import { BebidasComponent } from './bebidas/bebidas.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { CartaComponent } from './carta/carta.component';
     WorkingComponent,
     HomeComponent,
     CartaComponent,
+    BebidasComponent,
   ],
   imports: [
     BrowserModule,

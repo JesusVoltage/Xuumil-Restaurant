@@ -6,8 +6,7 @@ import { CartaComponent } from './carta/carta.component';
 
 
 const routes: Routes = [
-  { path: '', component: WorkingComponent },
-  { path: 'homeluis', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'carta', component: CartaComponent },
 ];
 

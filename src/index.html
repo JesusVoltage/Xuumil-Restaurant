@@ -1,32 +1,45 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>www.xuumil.com</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 
 
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="css/templatemo-style.css">
+  <script src="https://kit.fontawesome.com/8efd060098.js" crossorigin="anonymous"></script>
   <script>
-    window.onscroll = function (){
-    // Obtenemos la posicion del scroll en pantall
-    var scroll = document.documentElement.scrollTop || document.body.scrollTop;
+    window.onscroll = function () {
+      // Obtenemos la posicion del scroll en pantall
+      var scroll = document.documentElement.scrollTop || document.body.scrollTop;
 
-    // Realizamos alguna accion cuando el scroll este entre la posicion 300 y 400
-    if(scroll > 0){
-      document.getElementById('menusito').classList.add('menusito-bg');
+      // Realizamos alguna accion cuando el scroll este entre la posicion 300 y 400
+      if (scroll > 0) {
+        document.getElementById('menusito').classList.add('menusito-bg');
+      }
+      if (scroll == 0) {
+        document.getElementById('menusito').classList.remove('menusito-bg');
+      }
     }
-    if(scroll == 0){
-      document.getElementById('menusito').classList.remove('menusito-bg');
-    }
-}
+    jQuery(document).ready(function ($) {
+      var deviceAgent = navigator.userAgent.toLowerCase();
+
+      if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
+        $('.iparaxify').removeClass('paraxify');
+      }
+    });
+
+
   </script>
 </head>
-<body style="background-color: #cecece;">
+
+<body style="background-color: #a8505c">
   <app-root></app-root>
 </body>
+
 </html>

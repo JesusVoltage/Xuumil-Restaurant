@@ -1,81 +1,335 @@
-<div class="container my-4">
-    <div class="text-center">
-        <h3>Nuestra Carta</h3>
+<nav id="menusito" class="py-3 navbar navbar-expand-md bg-rosa1 navbar-dark">
+    <!-- Brand -->
+    <div class="pl-3">
+
+        <a class="navbar-brand" style="font-size: 180%;" href="home/#">XUÚMIL</a>
     </div>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse justify-content-end mr-5" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="home/#">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="home/#">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="home/#">Contacto</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<img src="https://firebasestorage.googleapis.com/v0/b/restaurante1-f78f5.appspot.com/o/Fotos%20test%2FWhatsApp%20Image%202020-07-20%20at%2014.42.12.jpeg?alt=media&token=f6eace46-85d3-4e34-b8af-d2df7523fe05"
+    class="img-fluid">
+
+<div class="container  bg-rosaFondo text-light">
+
+    <div class="text-center pt-5 bg-rosaFondo pb-5">
+        <div class=" d-flex justify-content-around">
+            <div (click)="bebidas = false" class="font-weight-bold">
+                <h3>Platos</h3>
+            </div>
+            <div (click)="bebidas = true" class="font-weight-bold">
+                <h3>Bebidas</h3>
+            </div>
+        </div>
+    </div>
+
     <div class="row">
-        <div class="col-sm-3 bg-light rounded shadow p-3 m-2">
-            <div class="my-1">
-                <h4>Entrantes:</h4>
-            </div>
-            <div *ngFor="let entrante of entrantes" class="my-1">
-                <div class=" d-flex justify-content-between">
-                    <div class="font-weight-bold">{{entrante.nombre}}</div>
-                    <div class="font-weight-bold">{{entrante.precio}}</div>
+
+
+        <div *ngIf="!bebidas" class="mt-5">
+
+            <div class="col-sm-3 p-3 m-2 bg-rosaFondo">
+                <div class="my-1">
+                    <h4>Entrantes:</h4>
                 </div>
-                <div class=" d-flex justify-content-start">
-                    <div>{{entrante.ingredientes}}</div>
+                <div *ngFor="let entrante of entrantes" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold">{{entrante.nombre}}</div>
+                        <div class="font-weight-bold">{{entrante.precio}}</div>
+                    </div>
+                    <div class="d-flex justify-content-start max-width">
+                        <div>{{entrante.ingredientes}}</div>
+                    </div>
                 </div>
             </div>
+
+            <div class="mid1 container-fluid text-center py-5">
+                <h1>Carnes</h1>
+            </div>
+            <div class="col-sm-3 p-3 m-2">
+
+                <div *ngFor="let entrante of carnes" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold">{{entrante.nombre}}</div>
+                        <div class="font-weight-bold">{{entrante.precio}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start max-width">
+                        <div>{{entrante.ingredientes}}</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mid2 container-fluid text-center py-5">
+                <h1>Pescados</h1>
+            </div>
+            <div class="col-sm-3 p-3 m-2">
+                <div *ngFor="let entrante of pescados" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold">{{entrante.nombre}}</div>
+                        <div class="font-weight-bold">{{entrante.precio}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start max-width">
+                        <div>{{entrante.ingredientes}}</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mid3 container-fluid text-center py-5">
+                <h1>Vegetariano</h1>
+            </div>
+            <div class="col-sm-3 p-3 m-2">
+                <div *ngFor="let entrante of veggies" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold">{{entrante.nombre}}</div>
+                        <div class="font-weight-bold">{{entrante.precio}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start max-width">
+                        <div>{{entrante.ingredientes}}</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mid-postres container-fluid text-center py-5">
+                <h1>Postres</h1>
+            </div>
+            <div class="col-sm-3 p-3 m-2">
+                <div *ngFor="let entrante of postres" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width">{{entrante.nombre}}</div>
+                        <div class="font-weight-bold">{{entrante.precio}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start">
+                        <div>{{entrante.ingredientes}}</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        
+  
+        <div *ngIf="bebidas">
+
+            <div class="col-sm-3 bg-rosaFondo">
+                    <div class="d-flex justify-content-start max-width">
+                        <div style="color: #a8505c;">.-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+                    </div>
+            </div>
+
+            <div class="mid-vinos container text-center py-5">
+                <h1>Vinoteca</h1>
+            </div>
+
+            <div class="col-sm-3 p-3 m-2">
+                <div class="my-1">
+                    <h4>Tintos Portugueses</h4>
+                </div>
+                <div class=" d-flex justify-content-end">
+
+                    <div class="font-weight-bold">copa/botella</div>
+                </div>
+                <div *ngFor="let entrante of vinos1" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width">{{entrante.nombre}}</div>
+
+                        <div class="font-weight-bold">{{entrante.copa}} {{entrante.botella}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start">
+                        <div>{{entrante.comentario}}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 p-3 m-2">
+                <div class="my-1">
+                    <h4>Blancos Portugueses</h4>
+                </div>
+                <div class=" d-flex justify-content-end">
+                    <div class="font-weight-bold">copa/botella</div>
+                </div>
+
+
+                <div *ngFor="let entrante of vinos2" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width2">{{entrante.nombre}}</div>
+
+                        <div class="font-weight-bold">{{entrante.copa}} {{entrante.botella}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start">
+                        <div>{{entrante.comentario}}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 p-3 m-2">
+                <div class="my-1">
+                    <h4>Rosados</h4>
+                </div>
+                <div class=" d-flex justify-content-end">
+                    <div class="font-weight-bold">copa/botella</div>
+                </div>
+
+
+                <div *ngFor="let entrante of vinos3" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width2">{{entrante.nombre}}</div>
+
+                        <div class="font-weight-bold">{{entrante.copa}} {{entrante.botella}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start">
+                        <div>{{entrante.comentario}}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container text-center py-5">
+                <h1>Vinos de Jerez</h1>
+            </div>
+
+            <div class="col-sm-3 p-3 m-2">
+
+                <div class=" d-flex justify-content-end">
+                    <div class="font-weight-bold">copa/botella</div>
+                </div>
+
+
+                <div *ngFor="let entrante of jerez" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width2">{{entrante.nombre}}</div>
+
+                        <div class="font-weight-bold">{{entrante.copa}} {{entrante.botella}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start">
+                        <div>{{entrante.comentario}}</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container text-center py-5">
+                <h1>Vinos de la tierra de Cádiz</h1>
+            </div>
+
+            <div class="col-sm-3 p-3 m-2">
+                <div class="my-1">
+                    <h4>Tintos</h4>
+                </div>
+                <div class=" d-flex justify-content-end">
+                    <div class="font-weight-bold">copa/botella</div>
+                </div>
+
+
+                <div *ngFor="let entrante of cadizTintos" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width2">{{entrante.nombre}}</div>
+
+                        <div class="font-weight-bold">{{entrante.copa}} {{entrante.botella}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start">
+                        <div>{{entrante.comentario}}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 p-3 m-2">
+                <div class="my-1">
+                    <h4>Blancos</h4>
+                </div>
+                <div class=" d-flex justify-content-end">
+                    <div class="font-weight-bold">copa/botella</div>
+                </div>
+
+
+                <div *ngFor="let entrante of cadizBlancos" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width2">{{entrante.nombre}}</div>
+
+                        <div class="font-weight-bold">{{entrante.copa}} {{entrante.botella}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start">
+                        <div>{{entrante.comentario}}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container text-center py-5">
+                <h1>Para acompañar el postre...</h1>
+            </div>
+
+            <div class="col-sm-3 p-3 m-2">
+                <div class=" d-flex justify-content-end">
+                    <div class="font-weight-bold">copa/botella</div>
+                </div>
+
+
+                <div *ngFor="let entrante of vinoPostre" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width2">{{entrante.nombre}}</div>
+
+                        <div class="font-weight-bold">{{entrante.copa}} {{entrante.botella}}</div>
+                    </div>
+                    <div class=" d-flex justify-content-start">
+                        <div>{{entrante.comentario}}</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="mid-beer container text-center py-5">
+                <h1>Cervezas</h1>
+            </div>
+
+            <div class="col-sm-3 p-3 m-2">
+                <div *ngFor="let entrante of beer" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width2">{{entrante.nombre}}</div>
+
+                        <div class="font-weight-bold">{{entrante.precio}}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid-refrescos container text-center py-5">
+                <h1>Refrescos</h1>
+            </div>
+
+            <div class="col-sm-3 p-3 m-2">
+                <div *ngFor="let entrante of refrescos" class="my-1">
+                    <div class=" d-flex justify-content-between">
+                        <div class="font-weight-bold max-width2">{{entrante.nombre}}</div>
+
+                        <div class="font-weight-bold">{{entrante.precio}}</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="col-sm-3 bg-light rounded shadow p-3 m-2">
-            <div class="my-1">
-                <h4>Carnes:</h4>
-            </div>
-            <div *ngFor="let entrante of carnes" class="my-1">
-                <div class=" d-flex justify-content-between">
-                    <div class="font-weight-bold">{{entrante.nombre}}</div>
-                    <div class="font-weight-bold">{{entrante.precio}}</div>
-                </div>
-                <div class=" d-flex justify-content-start">
-                    <div>{{entrante.ingredientes}}</div>
-                </div>
-            </div>
-        </div>
 
-        <div class="col-sm-3 bg-light rounded shadow p-3 m-2">
-            <div class="my-1">
-                <h4>Pescados:</h4>
-            </div>
-            <div *ngFor="let entrante of pescados" class="my-1">
-                <div class=" d-flex justify-content-between">
-                    <div class="font-weight-bold">{{entrante.nombre}}</div>
-                    <div class="font-weight-bold">{{entrante.precio}}</div>
-                </div>
-                <div class=" d-flex justify-content-start">
-                    <div>{{entrante.ingredientes}}</div>
-                </div>
-            </div>
-        </div>
 
-        <div class="col-sm-3 bg-light rounded shadow p-3 m-2">
-            <div class="my-1">
-                <h4>Vegetariano:</h4>
-            </div>
-            <div *ngFor="let entrante of veggies" class="my-1">
-                <div class=" d-flex justify-content-between">
-                    <div class="font-weight-bold">{{entrante.nombre}}</div>
-                    <div class="font-weight-bold"></div>
-                </div>
-                <div class=" d-flex justify-content-start">
-                    <div>{{entrante.ingredientes}}</div>
-                </div>
-            </div>
-        </div>
 
-        <div class="col-sm-3 bg-light rounded shadow p-3 m-2">
-            <div class="my-1">
-                <h4>Postres:</h4>
-            </div>
-            <div *ngFor="let entrante of postres" class="my-1">
-                <div class=" d-flex justify-content-between">
-                    <div class="font-weight-bold">{{entrante.nombre}}</div>
-                    <div class="font-weight-bold">{{entrante.precio}}</div>
-                </div>
-                <div class=" d-flex justify-content-start">
-                    <div>{{entrante.ingredientes}}</div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>

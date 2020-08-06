@@ -1,0 +1,116 @@
+$rosa1: #bd5462;
+$rosa2: #ca5764;
+
+$rosaFondo: #a8505c;
+
+.bg-rosa1 {
+    background: $rosa1;
+}
+
+.bg-rosaFondo {
+    background-color: $rosaFondo;
+}
+
+.barrita {
+    background: $rosa1;
+    height: 75px;
+}
+
+.max-width {
+    max-width: 85%;
+}
+.max-width2 {
+    max-width: 80%;
+}
+
+.mid1 {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/restaurante1-f78f5.appspot.com/o/Fotos%20test%2FCarnes.jpg?alt=media&token=fa937bca-dac7-45a2-b4a9-7d71bd8373a0");
+    color: white;
+    font-weight: 900;
+    font-size: 200%;
+    //background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid2 {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/restaurante1-f78f5.appspot.com/o/Fotos%20test%2FPescados.jpg?alt=media&token=3fa34346-de6f-4dcd-9f94-049b601421c8");
+    color: white;
+    font-weight: 900;
+    font-size: 200%;
+    //background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+//https://firebasestorage.googleapis.com/v0/b/restaurante1-f78f5.appspot.com/o/Fotos%20test%2FPostres.jpg?alt=media&token=c13fb17e-00ae-4d70-8fff-30a71b3d4853
+
+.mid-postres{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/restaurante1-f78f5.appspot.com/o/Fotos%20test%2FPostres.jpg?alt=media&token=c13fb17e-00ae-4d70-8fff-30a71b3d4853");
+    color: white;
+    font-weight: 900;
+    font-size: 200%;
+    //background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid3 {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/restaurante1-f78f5.appspot.com/o/Fotos%20test%2FWhatsApp%20Image%202020-07-20%20at%2014.42.13.jpeg?alt=media&token=ffb1621f-3496-4e78-987d-9c167ae06ee7");
+    color: white;
+    font-weight: 900;
+    font-size: 200%;
+    //background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid-vinos {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/restaurante1-f78f5.appspot.com/o/Fotos%20test%2FVinoteca.jpg?alt=media&token=15306041-ce35-4980-91fc-460a2723283e");
+    color: white;
+    font-weight: 900;
+    font-size: 200%;
+    //background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid-refrescos {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/restaurante1-f78f5.appspot.com/o/Fotos%20test%2Funnamed.jpg?alt=media&token=63c45473-afcc-4b1f-bfc4-d3e5c12f387d");
+    color: white;
+    font-weight: 900;
+    font-size: 200%;
+    //background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid-beer {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/restaurante1-f78f5.appspot.com/o/Fotos%20test%2Fradovan-XDW56oKSCHw-unsplash.jpg?alt=media&token=08c8d75a-9804-44ae-8258-79e348df42d8");
+    color: white;
+    font-weight: 900;
+    font-size: 200%;
+    //background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
