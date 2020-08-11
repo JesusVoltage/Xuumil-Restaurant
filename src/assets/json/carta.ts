@@ -1,7 +1,7 @@
 export var entrantes: any[] = [
     {"id": 1 , "categoria": "entrante", "nombre": "Sopa Azteca", "foto": "","precio": "8.00€", "ingredientes": "Aguacate, cebolla, cilantro, limón, tomate, chiles secos, crema agria"},
     {"id": 2 , "categoria": "entrante", "nombre": "Aguachile de pescado azul", "foto": "","precio": "11.00€", "ingredientes": "Jalapeño, lima, cilantro, perejil, Cebolla morada"},
-    {"id": 3 , "categoria": "entrante", "nombre": "Tostada de flor de Jamaica con huitlacoche", "foto": "","precio": "8.50€", "ingredientes": "frijoles refritos, maiz dulce, crema agria ( veggie) "},
+    {"id": 3 , "categoria": "entrante", "nombre": "Tostada de flor de Jamaica con huitlacoche", "foto": "","precio": "8.50€", "ingredientes": "frijoles refritos, maiz dulce, crema agria (veggie) "},
     {"id": 4 , "categoria": "entrante", "nombre": "Ensalada de pulpo", "foto": "","precio": "12.00€", "ingredientes": "Pulpo, piña, kiwi, manzana, coco, menta"},
     {"id": 5 , "categoria": "entrante", "nombre": "Queso de cabra en masa filo", "foto": "","precio": "9.00€", "ingredientes": "Queso chévere, masa filo, melocotón, balsámico"},
  ];

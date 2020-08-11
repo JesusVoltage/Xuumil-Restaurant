@@ -8,6 +8,7 @@ import { WorkingComponent } from './working/working.component';
 import { HomeComponent } from './home/home.component';
 import { CartaComponent } from './carta/carta.component';
 import { BebidasComponent } from './bebidas/bebidas.component';
+import { CartaWebComponent } from './carta-web/carta-web.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { BebidasComponent } from './bebidas/bebidas.component';
     HomeComponent,
     CartaComponent,
     BebidasComponent,
+    CartaWebComponent,
   ],
   imports: [
     BrowserModule,
