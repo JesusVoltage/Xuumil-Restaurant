@@ -1,26 +1,26 @@
 export var entrantes: any[] = [
-    {"id": 1 , "categoria": "entrante", "nombre": "Sopa Azteca", "foto": "","precio": "8.00€", "ingredientes": "Aguacate, cebolla, cilantro, limón, tomate, chiles secos, crema agria"},
-    {"id": 2 , "categoria": "entrante", "nombre": "Aguachile de pescado azul", "foto": "","precio": "11.00€", "ingredientes": "Jalapeño, lima, cilantro, perejil, Cebolla morada"},
-    {"id": 3 , "categoria": "entrante", "nombre": "Tostada de flor de Jamaica con huitlacoche", "foto": "","precio": "8.50€", "ingredientes": "frijoles refritos, maiz dulce, crema agria (veggie) "},
-    {"id": 4 , "categoria": "entrante", "nombre": "Ensalada de pulpo", "foto": "","precio": "12.00€", "ingredientes": "Pulpo, piña, kiwi, manzana, coco, menta"},
-    {"id": 5 , "categoria": "entrante", "nombre": "Queso de cabra en masa filo", "foto": "","precio": "9.00€", "ingredientes": "Queso chévere, masa filo, melocotón, balsámico"},
+    {"id": 1 , "categoria": "entrante", "nombre": "Crema de calabaza", "foto": "","precio": "8€", "ingredientes": "huevo de codorniz, zanahorias bby y aceite de trufa"},
+    {"id": 2 , "categoria": "entrante", "nombre": "Tamal de frijol negro", "foto": "","precio": "9.00€", "ingredientes": "mole de pipian, micromezclum, y crema agria"},
+    {"id": 3 , "categoria": "entrante", "nombre": "Langostinos al piri-piri", "foto": "","precio": "12.00€", "ingredientes": "Aceite de piri,piri mantequilla, ajo, lima, cilantro"},
+    {"id": 4 , "categoria": "entrante", "nombre": "Mejillones a la portuguesa", "foto": "","precio": "10.50€", "ingredientes": "En salsa de tomate, pimientos, cilantro, lima"},
+    {"id": 5 , "categoria": "entrante", "nombre": "Aguachile de pescado azul", "foto": "","precio": "11€", "ingredientes": "jalapeño, lima, cilantro, cebolla morada , espuma de Lima"},
  ];
 
  export var carnes: any[] = [
-    {"id": 1 , "categoria": "entrante", "nombre": "Costilla de ternera", "foto": "","precio": "14.00€", "ingredientes": "Puré de lenteja roja y piñón, Jamaica, moscatel, ensalada "},
-    {"id": 2 , "categoria": "entrante", "nombre": "Venado en mole de guayaba", "foto": "","precio": "17.00€", "ingredientes": "Arroz negro, dulce de higo, ensalada, hoja de maíz"},
-    {"id": 3 , "categoria": "entrante", "nombre": "Magret de Pato al hibisco", "foto": "","precio": "15.50€", "ingredientes": "Flor de hibisco, quinoa, pesto, dulce de tomate, ensalada"},
-    {"id": 4 , "categoria": "entrante", "nombre": "Jabalí al pipian", "foto": "","precio": "16.00€", "ingredientes": "Chiles toreados, oloroso, frijoles refritos, tortilla de maíz "},
-    {"id": 5 , "categoria": "entrante", "nombre": "Cochinita pibil", "foto": "","precio": "15.00€", "ingredientes": "Cerdo ibérico, achiote, naranja, platano, cebolla curtida"},
+    {"id": 1 , "categoria": "entrante", "nombre": "Bife a la portuguesa", "foto": "","precio": "22.00€", "ingredientes": "Bife de vacía portuguesa, 'molho asado', jamon iberico, ajo laurel y chips de batata y boniato"},
+    {"id": 2 , "categoria": "entrante", "nombre": "Rack de cordero", "foto": "","precio": "19.00€", "ingredientes": "en costra de secos variados, spaghetti al Nero di seppia, zetas lacataryus y salsa de naranja con zanahoria"},
+    {"id": 3 , "categoria": "entrante", "nombre": "venado en mole rojo", "foto": "","precio": "17.00€", "ingredientes": "Guayaba, arroz Negro, queso de cabra, hoja de maíz"},
+    {"id": 4 , "categoria": "entrante", "nombre": "Conejo al chocolate", "foto": "","precio": "18.00€", "ingredientes": "Almendras, brandy,  patatas bby, zetas lacataryus, cebolla morada, paté de hígado"},
+    {"id": 5 , "categoria": "entrante", "nombre": "barbacoa de res", "foto": "","precio": "15.00€", "ingredientes": "Lengua de ternera adobada en chiles secos, ( ancho, guajillo)  cebolla, cilantro, lima y huitlacoche"},
  ];
 
 
  export var pescados: any[] = [
-    {"id": 1 , "categoria": "entrante", "nombre": "Pulpo al ajillo", "foto": "","precio": "18.00€", "ingredientes": "Zetas, ensalada, cilantro, Chile guajillo, lima"},
-    {"id": 2 , "categoria": "entrante", "nombre": "Atún en costra de cacahuate", "foto": "","precio": "17.00€", "ingredientes": "Salsa de tamarindo, puré de batata dulce, amontillado, ensalada"},
-    {"id": 3 , "categoria": "entrante", "nombre": "Sopa algarvia de marisco", "foto": "","precio": "12.00€", "ingredientes": "Almeja portuguesa, camarón, mejillón, tomate"},
-    {"id": 4 , "categoria": "entrante", "nombre": "Bacalao en mole verde", "foto": "","precio": "17.50€", "ingredientes": "Semillas de calabaza, zanahoria, poro, cilantro, parmesano"},
-    {"id": 5 , "categoria": "entrante", "nombre": "Camarón tigre", "foto": "","precio": "19.00€", "ingredientes": "Lima cut, trufa, arroz salvaje, ensalada"},
+    {"id": 1 , "categoria": "entrante", "nombre": "Tikinxhick", "foto": "","precio": "17.00€", "ingredientes": "Filete de 'peixe galo' en salsa pibil, tomate bby al horno envuelta en hoja de plátano"},
+    {"id": 2 , "categoria": "entrante", "nombre": "Tosta de carapao", "foto": "","precio": "12.50€", "ingredientes": "Tosta de pan a las finas hierbas, carapao, vinagreta dulce de zanahoria y col morada, papas bby al 'murro ' y lemon cut"},
+    {"id": 3 , "categoria": "entrante", "nombre": "Bacalao en mole verde", "foto": "","precio": "17.50€", "ingredientes": "Mole verde de semillas de calabaza, zanahoria bby salteada en aceite de trufa, alga marina"},
+    {"id": 4 , "categoria": "entrante", "nombre": "Vieras", "foto": "","precio": "18.00€", "ingredientes": "Carne de viera ahumada, risotto al champagne con pimienta rosa, y culi de manga fresca con piri-piri"},
+    {"id": 5 , "categoria": "entrante", "nombre": "Gordita de atún rojo", "foto": "","precio": "19.00€", "ingredientes": "Gordita de maíz inflada, rellena de huitlacoche, atún rojo, queso chévere y mayonesa de trufa"},
 ];
 
 export var veggie: any[] = [
@@ -29,12 +29,11 @@ export var veggie: any[] = [
 ];
 
 export var postres: any[] = [
-    {"id": 1 , "categoria": "entrante", "nombre": "Oporto cheese cake", "foto": "","precio": "6.00€", "ingredientes": ""},
-    {"id": 1 , "categoria": "entrante", "nombre": "Baba de camello", "foto": "","precio": "5.00€", "ingredientes": ""},
-    {"id": 1 , "categoria": "entrante", "nombre": "Dulce de calabaza con helado de pistache", "foto": "","precio": "6.00€", "ingredientes": ""},
-    {"id": 1 , "categoria": "entrante", "nombre": "Panacotta de higo con piri-piri", "foto": "","precio": "5.50€", "ingredientes": ""},
-    {"id": 1 , "categoria": "entrante", "nombre": "Mousse de cacahuate con frutos secos", "foto": "","precio": "5.80€", "ingredientes": ""},
-    {"id": 1 , "categoria": "entrante", "nombre": "Plátano ahumado con café", "foto": "","precio": "6.00€", "ingredientes": ""},
+    {"id": 1 , "categoria": "entrante", "nombre": "Tamal de chocolate y frutos rojos", "foto": "","precio": "7€", "ingredientes": ""},
+    {"id": 2 , "categoria": "entrante", "nombre": "Dulce Calabaza 3 texturas", "foto": "","precio": "6.00€", "ingredientes": ""},
+    {"id": 3 , "categoria": "entrante", "nombre": "Arroz negro con leche y naranja", "foto": "","precio": "5.00€", "ingredientes": ""},
+    {"id": 4 , "categoria": "entrante", "nombre": "Pastel de Belem", "foto": "","precio": "5.50€", "ingredientes": ""},
+    {"id": 5 , "categoria": "entrante", "nombre": "Falsa trufa de frijol Negro con 'bolo de bolacha'", "foto": "","precio": "5.50€", "ingredientes": ""},
 ];
  
 export var vinos1: any[] = [

@@ -13,7 +13,6 @@ export class CartaWebComponent implements OnInit {
   entrantes : any[];
   carnes : any[];
   pescados : any[];
-  veggies : any[];
   postres : any[];
   vinos1 : any[];
   vinos2 : any[];
@@ -39,9 +38,6 @@ export class CartaWebComponent implements OnInit {
     });
     this.datosService.getPescados().subscribe((response) => {
       this.pescados = response;
-    });
-    this.datosService.getVeggie().subscribe((response) => {
-      this.veggies = response;
     });
     this.datosService.getPostres().subscribe((response) => {
       this.postres = response;
