@@ -11,7 +11,7 @@ export var entrantes: any[] = [
     {"id": 2 , "categoria": "entrante", "nombre": "Rack de cordero", "foto": "","precio": "19.00€", "ingredientes": "en costra de secos variados, spaghetti al Nero di seppia, zetas lacataryus y salsa de naranja con zanahoria"},
     {"id": 3 , "categoria": "entrante", "nombre": "venado en mole rojo", "foto": "","precio": "17.00€", "ingredientes": "Guayaba, arroz Negro, queso de cabra, hoja de maíz"},
     {"id": 4 , "categoria": "entrante", "nombre": "Conejo al chocolate", "foto": "","precio": "18.00€", "ingredientes": "Almendras, brandy,  patatas bby, zetas lacataryus, cebolla morada, paté de hígado"},
-    {"id": 5 , "categoria": "entrante", "nombre": "barbacoa de res", "foto": "","precio": "15.00€", "ingredientes": "Lengua de ternera adobada en chiles secos, ( ancho, guajillo)  cebolla, cilantro, lima y huitlacoche"},
+    {"id": 5 , "categoria": "entrante", "nombre": "barbacoa de res", "foto": "","precio": "15.00€", "ingredientes": "Lengua de ternera adobada en chiles secos, (ancho, guajillo)  cebolla, cilantro, lima y huitlacoche"},
  ];
 
 
@@ -129,4 +129,61 @@ export var beer: any[] = [
     {"nombre": "Cruzcampo IPA", "precio": "3.20€"},
     {"nombre": "Cruzcampo Trigo", "precio": "3.20€"},
     {"nombre": "Cruzcampo PALE ALE", "precio": "3.20€"},
+];
+
+
+export var dasayunos1: any[] = [
+    {"nombre":"Café" , "precio":"1.50€"},
+    {"nombre":"Café/Leche" , "precio":"1.50€"},
+    {"nombre":"Cortado" , "precio":"1.50€"},
+    {"nombre":"manchado" , "precio":"1.50€"},
+    {"nombre":"Capuccino" , "precio":"2.20€"},
+    {"nombre":"Late" , "precio":"2.20€"},
+    {"nombre":"galón" , "precio":"1.85€"},
+    {"nombre":"Té" , "precio":"2.00€"}
+];
+
+export var desayunos2: any[] = [
+    {"nombre":"Naranja" , "precio":"2.80€"},
+    {"nombre":"Piña" , "precio":"2.85€"},
+    {"nombre":"Zanahoria" , "precio":"2.80€"},
+    {"nombre":"Verde" , "precio":"3.20€"}
+];
+
+export var desayunos3: any[] = [
+    {"nombre":"Papaya" , "precio":"4.20€"},
+    {"nombre":"Platano" , "precio":"3.80€"},
+    {"nombre":"Fresa" , "precio":"4.50€"},
+    {"nombre":"Mango" , "precio":"4.50€"}
+];
+
+
+export var desayunos4: any[] = [
+    {"nombre":"Pao de queijo" , "precio":"1.00€"},
+    {"nombre":"Pastel de nata" , "precio":"1.00€"},
+    {"nombre":"Pastel de zanahoria" , "precio":"1.00€"},
+    {"nombre":"Bolo de arroz" , "precio":"1.00€"},
+    {"nombre":"Bolas de berlim" , "precio":"1.00€"}
+];
+
+export var desayunos5: any[] = [
+    {"nombre": "Xuumil", "precio":"8.50€", "comentario":"Queso de cabra , fresa, kiwi, nuez, pasas y mix de lechugas"},
+    {"nombre": "Lusa", "precio":"10.0€", "comentario":"Camarón, lechuga de mar, algas, cebolla frita"},
+];
+
+export var desayuno6: any[] = [
+    {"nombre": "Mollete Mexicano", "precio":"6.00€", "comentario":"Frijoles refritos, longaniza, pico de gallo, queso y crema"},
+    {"nombre": "Bifana Portuguesa", "precio":"4.00€", "comentario":"Vife de vacia, cebolla, aceite de oliva , oregano"},
+    {"nombre": "Francesiña", "precio":"7.00€", "comentario":"Sandwich tostado de pan de trigo, ternera, salsa de tomate y queso"},
+    {"nombre": "Tosta de Melón con Serrano", "precio":"5.00€", "comentario":""},
+];
+
+export var desayuno7: any[] = [
+    {"nombre": "Huevos con herbillas", "precio":"9.00€", "comentario":"Huevos poché, salasa de tomate con chorizos, guisantes"},
+    {"nombre": "Huevos rancheros", "precio":"8.50€", "comentario":"Tortilla frita, frijoles refritos, salsa roja y verde"},
+    {"nombre": "Huevos a la mexicana", "precio":"€", "comentario":""},
+    {"nombre": "", "precio":"€", "comentario":""},
+    {"nombre": "", "precio":"€", "comentario":""},
+    {"nombre": "", "precio":"€", "comentario":""},
+    {"nombre": "", "precio":"€", "comentario":""}
 ];
