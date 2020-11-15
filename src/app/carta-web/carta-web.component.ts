@@ -23,6 +23,15 @@ export class CartaWebComponent implements OnInit {
   cadizBlancos : any[];
   jerez : any[];
   vinoPostre : any[];
+
+  desayunos1 :any[];
+  desayunos2 :any[];
+  desayunos3 :any[];
+  desayunos4 :any[];
+  desayunos5 :any[];
+  desayunos6 :any[];
+  desayunos7 :any[];
+
   constructor(private datosService : DatosService) { }
 
   ngOnInit(): void {
@@ -69,5 +78,28 @@ export class CartaWebComponent implements OnInit {
     this.datosService.getvinoPostre().subscribe((response) => {
       this.vinoPostre = response;
     });
+
+    this.datosService.getDesayuno1().subscribe((response) => {
+      this.desayunos1 = response;
+    });
+    this.datosService.getDesayuno2().subscribe((response) => {
+      this.desayunos2 = response;
+    });
+    this.datosService.getDesayuno3().subscribe((response) => {
+      this.desayunos3 = response;
+    });
+    this.datosService.getDesayuno4().subscribe((response) => {
+      this.desayunos4 = response;
+    });
+    this.datosService.getDesayuno5().subscribe((response) => {
+      this.desayunos5 = response;
+    });
+    this.datosService.getDesayuno6().subscribe((response) => {
+      this.desayunos6 = response;
+    });
+    this.datosService.getDesayuno7().subscribe((response) => {
+      this.desayunos7 = response;
+    });
+
   }
 }

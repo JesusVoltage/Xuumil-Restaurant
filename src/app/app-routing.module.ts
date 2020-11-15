@@ -4,12 +4,14 @@ import { WorkingComponent } from './working/working.component';
 import { HomeComponent } from './home/home.component';
 import { CartaComponent } from './carta/carta.component';
 import { CartaWebComponent } from './carta-web/carta-web.component';
+import { DeliveryComponent } from './delivery/delivery.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'carta', component: CartaComponent },
   { path: 'cartaWeb', component: CartaWebComponent },
+  { path: 'delivery', component: DeliveryComponent },
 ];
 
 @NgModule({

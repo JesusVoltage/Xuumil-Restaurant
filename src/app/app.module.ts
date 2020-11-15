@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { CartaComponent } from './carta/carta.component';
 import { BebidasComponent } from './bebidas/bebidas.component';
 import { CartaWebComponent } from './carta-web/carta-web.component';
+import { DeliveryComponent } from './delivery/delivery.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CartaWebComponent } from './carta-web/carta-web.component';
     CartaComponent,
     BebidasComponent,
     CartaWebComponent,
+    DeliveryComponent,
   ],
   imports: [
     BrowserModule,

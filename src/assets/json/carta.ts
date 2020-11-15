@@ -132,7 +132,7 @@ export var beer: any[] = [
 ];
 
 
-export var dasayunos1: any[] = [
+export var desayunos1: any[] = [
     {"nombre":"Café" , "precio":"1.50€"},
     {"nombre":"Café/Leche" , "precio":"1.50€"},
     {"nombre":"Cortado" , "precio":"1.50€"},
@@ -171,19 +171,18 @@ export var desayunos5: any[] = [
     {"nombre": "Lusa", "precio":"10.0€", "comentario":"Camarón, lechuga de mar, algas, cebolla frita"},
 ];
 
-export var desayuno6: any[] = [
+export var desayunos6: any[] = [
     {"nombre": "Mollete Mexicano", "precio":"6.00€", "comentario":"Frijoles refritos, longaniza, pico de gallo, queso y crema"},
     {"nombre": "Bifana Portuguesa", "precio":"4.00€", "comentario":"Vife de vacia, cebolla, aceite de oliva , oregano"},
     {"nombre": "Francesiña", "precio":"7.00€", "comentario":"Sandwich tostado de pan de trigo, ternera, salsa de tomate y queso"},
     {"nombre": "Tosta de Melón con Serrano", "precio":"5.00€", "comentario":""},
 ];
 
-export var desayuno7: any[] = [
+export var desayunos7: any[] = [
     {"nombre": "Huevos con herbillas", "precio":"9.00€", "comentario":"Huevos poché, salasa de tomate con chorizos, guisantes"},
     {"nombre": "Huevos rancheros", "precio":"8.50€", "comentario":"Tortilla frita, frijoles refritos, salsa roja y verde"},
-    {"nombre": "Huevos a la mexicana", "precio":"€", "comentario":""},
-    {"nombre": "", "precio":"€", "comentario":""},
-    {"nombre": "", "precio":"€", "comentario":""},
-    {"nombre": "", "precio":"€", "comentario":""},
-    {"nombre": "", "precio":"€", "comentario":""}
+    {"nombre": "Huevos a la mexicana", "precio":"8.00€", "comentario":"Revueltos con tomate, cebolla cilantro y jalapeño"},
+    {"nombre": "Omelette de gambas", "precio":"11.00€", "comentario":""},
+    {"nombre": "Omelette de queso de cabra", "precio":"10.00€", "comentario":""},
+    {"nombre": "Omelette de setas", "precio":"9.50€", "comentario":""},
 ];
