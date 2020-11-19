@@ -1,20 +1,20 @@
 export var delivery1: any[] = [
     {"nombre":"barbacoa de ternera", "precio":"10.00€"},
-    {"nombre":"Pesacado adobado", "precio":"11.00€"},
+    {"nombre":"Pescado adobado", "precio":"11.00€"},
     {"nombre":"Gambas al ajillo", "precio":"12.00€"},
     {"nombre":"veggie", "precio":"9.00€"},
 ];
 
 export var delivery2: any[] = [
     {"nombre":"barbacoa de ternera", "precio":"10.00€"},
-    {"nombre":"Pesacado adobado", "precio":"11.00€"},
+    {"nombre":"Pescado adobado", "precio":"11.00€"},
     {"nombre":"Gambas al ajillo", "precio":"12.00€"},
     {"nombre":"veggie", "precio":"9.00€"},
 ];
 
 export var delivery3: any[] = [
     {"nombre":"barbacoa de ternera", "precio":"10.00€"},
-    {"nombre":"Pesacado adobado", "precio":"11.00€"},
+    {"nombre":"Pescado adobado", "precio":"11.00€"},
     {"nombre":"Gambas al ajillo", "precio":"12.00€"},
     {"nombre":"veggie", "precio":"9.00€"},
 ];
