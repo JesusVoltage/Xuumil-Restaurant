@@ -5,11 +5,11 @@ import {
   vinoJerez, 
   vinoCadizTintos, 
   vinoCadizBlancos , 
-  entrantes, 
-  carnes, 
-  pescados, 
-  veggie, 
-  postres, 
+  nuevaCarta,
+  // carnes, 
+  // pescados, 
+  // veggie, 
+  // postres, 
   vinos1, 
   vinos2, 
   vinos3, 
@@ -43,24 +43,28 @@ export class DatosService {
 
 
 
-  getEntrantes(): Observable <any> {
-    return of(entrantes);
-  }
+  // getEntrantes(): Observable <any> {
+  //   return of(entrantes);
+  // }
 
-  getCarnes(): Observable <any> {
-    return of(carnes);
-  }
+  // getCarnes(): Observable <any> {
+  //   return of(carnes);
+  // }
 
-  getPescados(): Observable <any> {
-    return of(pescados);
-  }
+  // getPescados(): Observable <any> {
+  //   return of(pescados);
+  // }
 
-  getVeggie(): Observable <any> {
-    return of(veggie);
-  }
+  // getVeggie(): Observable <any> {
+  //   return of(veggie);
+  // }
 
-  getPostres(): Observable <any> {
-    return of(postres);
+  // getPostres(): Observable <any> {
+  //   return of(postres);
+  // }
+
+  getNuevaCarta(){
+    return nuevaCarta;
   }
 
   getVinos1(): Observable <any> {

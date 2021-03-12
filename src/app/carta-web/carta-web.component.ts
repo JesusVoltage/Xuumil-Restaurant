@@ -8,12 +8,8 @@ import { DatosService } from '../datos.service';
 })
 export class CartaWebComponent implements OnInit {
 
+  nuevaCarta: any[];
   bebidas : boolean = false;
-
-  entrantes : any[];
-  carnes : any[];
-  pescados : any[];
-  postres : any[];
   vinos1 : any[];
   vinos2 : any[];
   vinos3 : any[];
@@ -39,18 +35,10 @@ export class CartaWebComponent implements OnInit {
   }
 
   getData(): void{
-    this.datosService.getEntrantes().subscribe((response) => {
-      this.entrantes = response;
-    });
-    this.datosService.getCarnes().subscribe((response) => {
-      this.carnes = response;
-    });
-    this.datosService.getPescados().subscribe((response) => {
-      this.pescados = response;
-    });
-    this.datosService.getPostres().subscribe((response) => {
-      this.postres = response;
-    });
+
+
+    this.nuevaCarta = this.datosService.getNuevaCarta();
+
     this.datosService.getVinos1().subscribe((response) => {
       this.vinos1 = response;
     });
