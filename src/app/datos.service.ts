@@ -1,11 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Observable, of} from 'rxjs';
 import { 
+  paraEmpezar,
+  paraTi,
+  brasas,
+  postre,
   vinoPostre, 
   vinoJerez, 
   vinoCadizTintos, 
-  vinoCadizBlancos , 
-  entrantes, 
+  vinoCadizBlancos,
   carnes, 
   pescados, 
   veggie, 
@@ -41,11 +44,19 @@ export class DatosService {
 
   constructor() { }
 
-
-
-  getEntrantes(): Observable <any> {
-    return of(entrantes);
+  getParaEmpezar(){
+    return paraEmpezar;
   }
+  getParaTi(){
+    return paraTi;
+  }
+  getBrasas(){
+    return brasas;
+  };
+
+  getPostre(){
+    return postre;
+  };
 
   getCarnes(): Observable <any> {
     return of(carnes);

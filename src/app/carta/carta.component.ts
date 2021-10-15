@@ -40,9 +40,7 @@ export class CartaComponent implements OnInit {
   }
 
   getData(): void{
-    this.datosService.getEntrantes().subscribe((response) => {
-      this.entrantes = response;
-    });
+
     this.datosService.getCarnes().subscribe((response) => {
       this.carnes = response;
     });

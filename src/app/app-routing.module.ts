@@ -9,7 +9,7 @@ import { DeliveryComponent } from './delivery/delivery.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'carta', component: CartaComponent },
+  { path: 'carta', component: CartaWebComponent },
   { path: 'cartaWeb', component: CartaWebComponent },
   { path: 'delivery', component: DeliveryComponent },
 ];
