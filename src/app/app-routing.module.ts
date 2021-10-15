@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { WorkingComponent } from './working/working.component';
 import { HomeComponent } from './home/home.component';
-import { CartaComponent } from './carta/carta.component';
 import { CartaWebComponent } from './carta-web/carta-web.component';
 import { DeliveryComponent } from './delivery/delivery.component';
 

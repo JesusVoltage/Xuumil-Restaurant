@@ -58,21 +58,22 @@ export class DatosService {
     return postre;
   };
 
-  getCarnes(): Observable <any> {
-    return of(carnes);
-  }
+  // getCarnes(): Observable <any> {
+  //   return of(carnes);
+  // }
 
-  getPescados(): Observable <any> {
-    return of(pescados);
-  }
+  // getPescados(): Observable <any> {
+  //   return of(pescados);
+  // }
 
-  getVeggie(): Observable <any> {
-    return of(veggie);
-  }
+  // getVeggie(): Observable <any> {
+  //   return of(veggie);
+  // }
 
-  getPostres(): Observable <any> {
-    return of(postres);
-  }
+  // getPostres(): Observable <any> {
+  //   return of(postres);
+  // }
+
 
   getVinos1(): Observable <any> {
     return of(vinos1);

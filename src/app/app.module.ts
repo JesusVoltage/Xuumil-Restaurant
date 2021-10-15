@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WorkingComponent } from './working/working.component';
 import { HomeComponent } from './home/home.component';
-import { CartaComponent } from './carta/carta.component';
 import { BebidasComponent } from './bebidas/bebidas.component';
 import { CartaWebComponent } from './carta-web/carta-web.component';
 import { DeliveryComponent } from './delivery/delivery.component';
@@ -16,7 +15,6 @@ import { DeliveryComponent } from './delivery/delivery.component';
     AppComponent,
     WorkingComponent,
     HomeComponent,
-    CartaComponent,
     BebidasComponent,
     CartaWebComponent,
     DeliveryComponent,
